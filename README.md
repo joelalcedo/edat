@@ -18,7 +18,7 @@ dataset <- rbind(tsla, gm)
 dataset <- rbind(dataset, ford)
 ```
 
-In this example, equity data for Tesla, General Motors, and Ford are all pulled separately, then bounded individually. This can become laborious as the number of data requests increase. 
+In the exampl above, equity data for Tesla, General Motors, and Ford are all pulled separately, then bounded individually. This can become laborious as the number of data requests increase. 
 
 Drawing from tidyverse paradigms, one can nest datasets into a a tibble using the logic below.
 
@@ -34,8 +34,10 @@ dataset <- tribble(
   'F', Quandl("WIKI/F")
 )
 ```
-Please refer to the 'edat' file for the full code, which will provide you the methods to expand the nested table into a analysis-ready format.
+Please refer to the 'edat' rmarkdown file for the full code, which will provide you the methods to expand the nested table into a analysis-ready format.
 
-Besides the benefit of improved scalability, I personally find it easier to read.
+Benefits:
+1. Scalable - the amount of code required to add new variables is significantly reduced.
+2. Legibility - easier to see which variables are used, in addition to greater ease when it comes to adding new ones.
 
-I hope this program does you well.
+Happy coding!
