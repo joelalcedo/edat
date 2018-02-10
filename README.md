@@ -1,4 +1,4 @@
-# edat-jub-chaker
+# edat
 Efficient Data Aggregation with Tibbles
 
 ## Motivation
