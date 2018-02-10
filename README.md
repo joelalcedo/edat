@@ -2,8 +2,9 @@
 Efficient Data Aggregation with Tibbles
 
 ## Motivation
-A conventional pitfall of combining API data one may encounter in the wild is best illustrated as such:
+To prevent a conventional pitfall associated with merging api-sourced datasets.
 
+##Inefficient Example
 ```
 library(Quandl)
 library(tidyverse)
@@ -20,6 +21,7 @@ In this example, equity data for Tesla, General Motors, and Ford are all pulled 
 
 Drawing from tidyverse paradigms, one can nest datasets into a a tibble using the logic below.
 
+#Efficient Example
 ```
 library(Quandl)
 library(tidyverse)
