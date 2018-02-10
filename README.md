@@ -33,6 +33,6 @@ dataset <- tribble(
 ```
 Please refer to the 'edat' file for the full code, which will provide you the methods to expand the nested table into a analysis-ready format.
 
-Besides the benefit of improved scalability, I find it easier to read. 
+Besides the benefit of improved scalability, I personally find it easier to read.
 
 I hope this program does you well.
