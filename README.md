@@ -18,7 +18,7 @@ dataset <- rbind(tsla, gm)
 dataset <- rbind(dataset, ford)
 ```
 
-In the exampl above, equity data for Tesla, General Motors, and Ford are all pulled separately, then bounded individually. This can become laborious as the number of data requests increase. 
+In the example above, equity data for Tesla, General Motors, and Ford are all pulled separately, then bounded individually. This can become laborious as the number of data requests increase. 
 
 Drawing from tidyverse paradigms, one can nest datasets into a a tibble using the logic below.
 
